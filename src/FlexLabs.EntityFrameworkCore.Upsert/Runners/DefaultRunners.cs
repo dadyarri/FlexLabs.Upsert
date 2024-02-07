@@ -19,6 +19,7 @@
                 new PostgreSqlUpsertCommandRunner(),
                 new SqlServerUpsertCommandRunner(),
                 new SqliteUpsertCommandRunner(),
+                new FireBirdSqlUpsertCommandRunner(),
             };
             return Runners;
         }
